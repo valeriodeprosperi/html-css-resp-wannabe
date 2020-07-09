@@ -72,13 +72,18 @@ img {
   clear: both;
 }
 
-@media screen and (max-width:992px){
+
+
+@media screen and (max-width:420px){
+
   .row{
     background-color: green;
   }
-}
-
-@media screen and (max-width:600px){
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: left;
+  }
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
@@ -86,18 +91,4 @@ img {
   width: 100%;
   margin:10px 0px;
 }
-}
-
-@media screen and (max-width:600px){
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: 100%;
-  float: left;
-}
-}
-
-@media screen and (max-width:244px){
-  .row{
-    overflow-X: hidden;
-  }
 }
