@@ -72,8 +72,8 @@ img {
   clear: both;
 }
 
-@media screen and (min-width:992px){
+@media screen and (max-width:992px){
   .row{
-    overflow-X: hidden;
+    background-color: green;
   }
 }
