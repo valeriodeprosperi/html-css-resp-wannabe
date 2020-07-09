@@ -78,7 +78,7 @@ img {
   }
 }
 
-@media screen and (max-width:244px){
+@media screen and (max-width:600px){
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
@@ -88,7 +88,7 @@ img {
 }
 }
 
-@media screen and (max-width:244px){
+@media screen and (max-width:600px){
 #lezioni .row>.left,
 #lezioni .row>.right {
   width: 100%;
