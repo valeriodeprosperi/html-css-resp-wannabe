@@ -95,3 +95,9 @@ img {
   float: left;
 }
 }
+
+@media screen and (max-width:244px){
+  .row{
+    overflow-X: hidden;
+  }
+}
