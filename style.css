@@ -77,3 +77,13 @@ img {
     background-color: green;
   }
 }
+
+@media screen and (max-width:244px){
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 100%;
+  margin:10px 0px;
+}
+}
