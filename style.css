@@ -75,9 +75,14 @@ img {
 
 
 @media screen and (max-width:420px){
-
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
   .row{
     background-color: green;
+    width:100%;
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
